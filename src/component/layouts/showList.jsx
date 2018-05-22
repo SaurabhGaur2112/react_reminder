@@ -27,6 +27,9 @@ export default class extends Component{
                             </Typography>
                         </CardContent>
                         <CardActions className="col-md-4">
+                            <IconButton aria-label="Delete" aria-label="edit">
+                                <i class="fas fa-pencil-alt"></i>
+                            </IconButton>
                             <IconButton aria-label="Delete" onClick={this.handleDelete}>
                                 <DeleteIcon />
                             </IconButton>
